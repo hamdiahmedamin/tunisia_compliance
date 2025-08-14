@@ -1,0 +1,260 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "naming_series:[series_name]",
+ "creation": "2025-08-10 17:54:08.178935",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "declaration_period_section",
+  "amended_from",
+  "naming_series",
+  "fiscal_year",
+  "month",
+  "company",
+  "column_break_attt",
+  "fetch_suspended_vat",
+  "fetch_fodec",
+  "vat_collected_section",
+  "vat_collected_details",
+  "total_vat_collected",
+  "vat_deductible_section",
+  "vat_deductible_details_gs",
+  "vat_deductible_details_fa",
+  "total_vat_deductible",
+  "other_taxes_section",
+  "other_taxes_details",
+  "total_other_taxes_due",
+  "vat_summary_section",
+  "previous_month_credit",
+  "vat_due",
+  "withholding_tax_section",
+  "withholding_tax_details",
+  "total_withholding_tax_due",
+  "stamp_duty_section",
+  "number_of_invoices_issued",
+  "total_stamp_duty_due",
+  "grand_total_section",
+  "grand_total_payable"
+ ],
+ "fields": [
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "VAT Declaration",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "month",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Month",
+   "options": "January\nFebruary\nMarch\nApril\nMay\nJune\nJuly\nAugust\nSeptember\nOctober\nNovember\nDecember",
+   "reqd": 1
+  },
+  {
+   "fieldname": "company",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Company",
+   "options": "Company",
+   "reqd": 1
+  },
+  {
+   "fieldname": "fiscal_year",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Fiscal Year",
+   "options": "Fiscal Year",
+   "reqd": 1
+  },
+  {
+   "fieldname": "vat_collected_section",
+   "fieldtype": "Section Break",
+   "label": "VAT Collected"
+  },
+  {
+   "fieldname": "declaration_period_section",
+   "fieldtype": "Section Break",
+   "label": "Declaration Period"
+  },
+  {
+   "fieldname": "total_vat_collected",
+   "fieldtype": "Currency",
+   "label": "Total VAT Collected",
+   "read_only": 1
+  },
+  {
+   "fieldname": "vat_deductible_section",
+   "fieldtype": "Section Break",
+   "label": "VAT Deductible"
+  },
+  {
+   "fieldname": "vat_due",
+   "fieldtype": "Currency",
+   "label": "VAT Due / (Credit)",
+   "read_only": 1
+  },
+  {
+   "description": "Manually enter any TVA credit from the last month.",
+   "fieldname": "previous_month_credit",
+   "fieldtype": "Currency",
+   "label": "Previous Month's Credit"
+  },
+  {
+   "fieldname": "vat_collected_details",
+   "fieldtype": "Table",
+   "label": "VAT Collected Details",
+   "options": "VAT Declaration Rate",
+   "read_only": 1
+  },
+  {
+   "fieldname": "vat_deductible_details_gs",
+   "fieldtype": "Table",
+   "label": "VAT Deductible Details (Goods/Services)",
+   "options": "VAT Declaration Rate",
+   "read_only": 1
+  },
+  {
+   "fieldname": "vat_deductible_details_fa",
+   "fieldtype": "Table",
+   "label": "VAT Deductible Details (Assets)",
+   "options": "VAT Declaration Rate",
+   "read_only": 1
+  },
+  {
+   "fieldname": "total_vat_deductible",
+   "fieldtype": "Currency",
+   "label": "Total VAT Deductible",
+   "read_only": 1
+  },
+  {
+   "fieldname": "vat_summary_section",
+   "fieldtype": "Section Break",
+   "label": "VAT Summary"
+  },
+  {
+   "fieldname": "withholding_tax_section",
+   "fieldtype": "Section Break",
+   "label": "Withholding Tax"
+  },
+  {
+   "fieldname": "withholding_tax_details",
+   "fieldtype": "Table",
+   "label": "Withholding Tax Details",
+   "options": "Withholding Tax Declaration Line",
+   "read_only": 1
+  },
+  {
+   "fieldname": "total_withholding_tax_due",
+   "fieldtype": "Currency",
+   "label": "Total Withholding Tax Due",
+   "read_only": 1
+  },
+  {
+   "fieldname": "stamp_duty_section",
+   "fieldtype": "Section Break",
+   "label": "Stamp Duty"
+  },
+  {
+   "fieldname": "total_stamp_duty_due",
+   "fieldtype": "Currency",
+   "label": "Total Stamp Duty Due",
+   "read_only": 1
+  },
+  {
+   "fieldname": "grand_total_section",
+   "fieldtype": "Section Break",
+   "label": "Grand Total"
+  },
+  {
+   "fieldname": "grand_total_payable",
+   "fieldtype": "Currency",
+   "label": "GRAND TOTAL PAYABLE",
+   "read_only": 1
+  },
+  {
+   "fieldname": "number_of_invoices_issued",
+   "fieldtype": "Int",
+   "label": "Number of Invoices Issued",
+   "read_only": 1
+  },
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "label": "Naming Series",
+   "options": "VATD-.YYYY.-.MM.-",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_attt",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "fetch_suspended_vat",
+   "fieldtype": "Check",
+   "label": "Fetch Suspended VAT"
+  },
+  {
+   "default": "0",
+   "fieldname": "fetch_fodec",
+   "fieldtype": "Check",
+   "label": "Fetch FODEC"
+  },
+  {
+   "fieldname": "other_taxes_section",
+   "fieldtype": "Section Break",
+   "label": "Other Taxes"
+  },
+  {
+   "fieldname": "other_taxes_details",
+   "fieldtype": "Table",
+   "label": "Other Taxes Details",
+   "options": "Other Tax Declaration Line",
+   "read_only": 1
+  },
+  {
+   "fieldname": "total_other_taxes_due",
+   "fieldtype": "Currency",
+   "label": "Total Other Taxes Due",
+   "read_only": 1
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2025-08-13 07:46:15.991570",
+ "modified_by": "Administrator",
+ "module": "Tunisia Compliance",
+ "name": "VAT Declaration",
+ "naming_rule": "By \"Naming Series\" field",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

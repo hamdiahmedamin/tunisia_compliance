@@ -1,0 +1,611 @@
+account_name,parent_account,account_number,parent_account_number,is_group,account_type,root_type,account_currency
+"CLASSE 1 : capitaux propres et passifs non courants","",1,,1,,,TND
+"Capital","CLASSE 1 : capitaux propres et passifs non courants",10,1,1,,,TND
+"Capital social","Capital",101,10,1,,,TND
+"Capital souscrit - non appelé","Capital social",1011,101,0,Equity,Equity,TND
+"Capital souscrit - appelé, non versé","Capital social",1012,101,0,Equity,Equity,TND
+"Capital souscrit - appelé, versé","Capital social",1013,101,1,,,TND
+"Capital non amorti","Capital souscrit - appelé, versé",10131,1013,0,Equity,Equity,TND
+"Capital amorti","Capital souscrit - appelé, versé",10132,1013,0,Equity,Equity,TND
+"Capital souscrit soumis à une réglementation particulière","Capital social",1018,101,0,Equity,Equity,TND
+"Fonds de dotation","Capital",105,10,0,Equity,Equity,TND
+"Compte de l'exploitant","Capital",108,10,0,Equity,Equity,TND
+"Actionnaires, capital souscrit - non appelé","Capital",109,10,0,Equity,Equity,TND
+"Réserves et primes liées au capital","CLASSE 1 : capitaux propres et passifs non courants",11,1,1,,,TND
+"Réserve légale","Réserves et primes liées au capital",111,11,0,Equity,Equity,TND
+"Réserves statutaires","Réserves et primes liées au capital",112,11,0,Equity,Equity,TND
+"Primes liées au capital","Réserves et primes liées au capital",117,11,1,,,TND
+"Primes d'émission","Primes liées au capital",1171,117,0,Equity,Equity,TND
+"Primes de fusion","Primes liées au capital",1172,117,0,Equity,Equity,TND
+"Primes d'apport","Primes liées au capital",1173,117,0,Equity,Equity,TND
+"Primes de conversion d'obligation","Primes liées au capital",1174,117,0,Equity,Equity,TND
+"Autres compléments d'apport","Primes liées au capital",1178,117,0,Equity,Equity,TND
+"Autres réserves","Réserves et primes liées au capital",118,11,1,,,TND
+"Réserves pour fonds social","Autres réserves",1181,118,0,Equity,Equity,TND
+"Actions propres","Réserves et primes liées au capital",119,11,0,Equity,Equity,TND
+"Résultats reportés","CLASSE 1 : capitaux propres et passifs non courants",12,1,1,,,TND
+"Résultat reporté","Résultats reportés",121,12,0,Equity,Equity,TND
+"Modifications comptables affectant les résultats reportés","Résultats reportés",128,12,0,Equity,Equity,TND
+"Résultat de l'exercice","CLASSE 1 : capitaux propres et passifs non courants",13,1,1,,,TND
+"Résultat bénéficiaire","Résultat de l'exercice",131,13,0,Equity,Equity,TND
+"Résultat déficitaire","Résultat de l'exercice",135,13,0,Equity,Equity,TND
+"Autres capitaux propres","CLASSE 1 : capitaux propres et passifs non courants",14,1,1,,,TND
+"Titres soumis à des réglementations particulières","Autres capitaux propres",141,14,0,Equity,Equity,TND
+"Réserves réglementées & réserves soumises à un régime fiscal particulier","Autres capitaux propres",142,14,1,,,TND
+"Réserves indisponibles","Réserves réglementées & réserves soumises à un régime fiscal particulier",1421,142,0,Equity,Equity,TND
+"Amortissements dérogatoires","Autres capitaux propres",143,14,0,Equity,Equity,TND
+"Réserve spéciale de réévaluation","Autres capitaux propres",144,14,0,Equity,Equity,TND
+"Subventions d'investissement","Autres capitaux propres",145,14,1,,,TND
+"Subvention d'investissement","Subventions d'investissement",1451,145,0,Equity,Equity,TND
+"Autres subventions d'investissement","Subventions d'investissement",1458,145,0,Equity,Equity,TND
+"Subventions d'investissement inscrites aux comptes de résultat","Subventions d'investissement",1459,145,0,Equity,Equity,TND
+"Compte du concédant","Autres capitaux propres",147,14,0,Equity,Equity,TND
+"Provisions pour risques & charges","CLASSE 1 : capitaux propres et passifs non courants",15,1,1,,,TND
+"Provisions pour risques","Provisions pour risques & charges",151,15,1,,,TND
+"Provisions pour litiges","Provisions pour risques",1511,151,0,Liability,Liability,TND
+"Provisions pour garanties données aux clients","Provisions pour risques",1512,151,0,Liability,Liability,TND
+"Provisions pour pertes sur marchés à achèvement futur","Provisions pour risques",1513,151,0,Liability,Liability,TND
+"Provisions pour amendes & pénalités","Provisions pour risques",1514,151,0,Liability,Liability,TND
+"Provisions pour pertes de change","Provisions pour risques",1515,151,0,Liability,Liability,TND
+"Autres provisions pour risques","Provisions pour risques",1518,151,0,Liability,Liability,TND
+"Provisions pour charges à répartir sur plusieurs exercices","Provisions pour risques & charges",152,15,1,,,TND
+"Provisions pour grosses réparations","Provisions pour charges à répartir sur plusieurs exercices",1522,152,0,Liability,Liability,TND
+"Provisions pour retraites et obligations similaires","Provisions pour risques & charges",153,15,0,Liability,Liability,TND
+"Provisions d'origine réglementaire","Provisions pour risques & charges",154,15,0,Liability,Liability,TND
+"Provisions pour impôts","Provisions pour risques & charges",155,15,0,Liability,Liability,TND
+"Provisions pour renouvellement des immobilisations","Provisions pour risques & charges",156,15,0,Liability,Liability,TND
+"Provisions pour amortissement","Provisions pour risques & charges",157,15,0,Liability,Liability,TND
+"Autres provisions pour charges","Provisions pour risques & charges",158,15,0,Liability,Liability,TND
+"Emprunts & dettes assimilées","CLASSE 1 : capitaux propres et passifs non courants",16,1,1,,,TND
+"Emprunts obligataires (assorties de sûretés)","Emprunts & dettes assimilées",161,16,1,,,TND
+"Emprunts obligataires convertibles en actions","Emprunts obligataires (assorties de sûretés)",1611,161,0,Liability,Liability,TND
+"Autres emprunts obligataires","Emprunts obligataires (assorties de sûretés)",1618,161,0,Liability,Liability,TND
+"Emprunts auprès des établissements financiers (assorties de sûretés)","Emprunts & dettes assimilées",162,16,1,,,TND
+"Emprunts bancaires","Emprunts auprès des établissements financiers (assorties de sûretés)",1621,162,0,Liability,Liability,TND
+"Refinancements acquis","Emprunts auprès des établissements financiers (assorties de sûretés)",1626,162,0,Liability,Liability,TND
+"Emprunts auprès d'autres établissements financiers (assorties de sûretés)","Emprunts & dettes assimilées",163,16,0,Liability,Liability,TND
+"Emprunts et dettes assorties de conditions particulières","Emprunts & dettes assimilées",164,16,1,,,TND
+"Avances bloquées pour augmentation du capital","Emprunts et dettes assorties de conditions particulières",1641,164,0,Liability,Liability,TND
+"Avances reçues et comptes courants des associés bloqués","Emprunts et dettes assorties de conditions particulières",1642,164,0,Liability,Liability,TND
+"Avances conditionnées de l'Etat & organismes internationaux","Emprunts et dettes assorties de conditions particulières",1644,164,0,Liability,Liability,TND
+"Emprunts non assorties de sûretés","Emprunts & dettes assimilées",165,16,0,Liability,Liability,TND
+"Dettes rattachées à des participations","Emprunts & dettes assimilées",166,16,1,,,TND
+"Dettes rattachées à des participations (groupe)","Dettes rattachées à des participations",1661,166,0,Liability,Liability,TND
+"Dettes rattachées à des participations (hors groupe)","Dettes rattachées à des participations",1662,166,0,Liability,Liability,TND
+"Dettes rattachées à des sociétés en participation","Dettes rattachées à des participations",1663,166,0,Liability,Liability,TND
+"Dépôts & cautionnements reçus","Emprunts & dettes assimilées",167,16,0,Liability,Liability,TND
+"Autres emprunts et dettes","Emprunts & dettes assimilées",168,16,1,,,TND
+"Autres emprunts","Autres emprunts et dettes",1681,168,0,Liability,Liability,TND
+"Crédit fournisseurs d'immobilisations","Autres emprunts et dettes",1685,168,0,Liability,Liability,TND
+"Autres dettes non courantes","Autres emprunts et dettes",1688,168,0,Liability,Liability,TND
+"Comptes de liaison des établissements & succursales","CLASSE 1 : capitaux propres et passifs non courants",17,1,1,,,TND
+"Comptes des liaison des établissements","Comptes de liaison des établissements & succursales",171,17,0,Liability,Liability,TND
+"Biens & prestations de services échangés entre établissements (charges)","Comptes de liaison des établissements & succursales",176,17,0,Liability,Liability,TND
+"Biens & prestations de services échangés entre établissements (produits)","Comptes de liaison des établissements & succursales",177,17,0,Liability,Liability,TND
+"Autres passifs non courants","CLASSE 1 : capitaux propres et passifs non courants",18,1,1,,,TND
+"Écarts de conversion - Passif","Autres passifs non courants",185,18,0,Liability,Liability,TND
+"Autres passifs","Autres passifs non courants",188,18,0,Liability,Liability,TND
+"CLASSE 2 : actifs non courants","",2,,1,,,TND
+"Immobilisations incorporelles","CLASSE 2 : actifs non courants",21,2,1,,,TND
+"Investissements de recherche & de développement","Immobilisations incorporelles",211,21,0,Fixed Asset,Asset,TND
+"Concessions de marques, brevets, licences, etc.","Immobilisations incorporelles",212,21,0,Fixed Asset,Asset,TND
+"Logiciels","Immobilisations incorporelles",213,21,0,Fixed Asset,Asset,TND
+"Fonds commercial","Immobilisations incorporelles",214,21,0,Fixed Asset,Asset,TND
+"Droit au bail","Immobilisations incorporelles",216,21,0,Fixed Asset,Asset,TND
+"Autres immobilisations incorporelles","Immobilisations incorporelles",218,21,0,Fixed Asset,Asset,TND
+"Immobilisations corporelles","CLASSE 2 : actifs non courants",22,2,1,,,TND
+"Terrains","Immobilisations corporelles",221,22,1,,,TND
+"Terrains nus","Terrains",2213,221,0,Fixed Asset,Asset,TND
+"Terrains aménagés","Terrains",2214,221,0,Fixed Asset,Asset,TND
+"Terrains bâtis","Terrains",2215,221,0,Fixed Asset,Asset,TND
+"Agencements & aménagements des terrains","Terrains",2216,221,0,Fixed Asset,Asset,TND
+"Constructions","Immobilisations corporelles",222,22,1,,,TND
+"Bâtiments","Constructions",2221,222,0,Fixed Asset,Asset,TND
+"Installations générales, agencements & aménagements","Constructions",2225,222,0,Fixed Asset,Asset,TND
+"Ouvrages d'infrastructure","Constructions",2226,222,0,Fixed Asset,Asset,TND
+"Constructions sur sol d'autrui","Constructions",2227,222,0,Fixed Asset,Asset,TND
+"Installations techniques, matériel et outillage industriels","Immobilisations corporelles",223,22,1,,,TND
+"Installations techniques","Installations techniques, matériel et outillage industriels",2231,223,0,Fixed Asset,Asset,TND
+"Matériel industriel","Installations techniques, matériel et outillage industriels",2234,223,0,Fixed Asset,Asset,TND
+"Outillage industriel","Installations techniques, matériel et outillage industriels",2235,223,0,Fixed Asset,Asset,TND
+"Agencements & aménagements du matériel & outillage","Installations techniques, matériel et outillage industriels",2237,223,0,Fixed Asset,Asset,TND
+"Matériel de transport","Immobilisations corporelles",224,22,1,,,TND
+"Matériel de transport de biens","Matériel de transport",2241,224,0,Fixed Asset,Asset,TND
+"Matériel de transport de personnes","Matériel de transport",2244,224,0,Fixed Asset,Asset,TND
+"Autres immobilisations corporelles","Immobilisations corporelles",228,22,1,,,TND
+"Installations générales, agencements et aménagements divers","Autres immobilisations corporelles",2281,228,0,Fixed Asset,Asset,TND
+"Équipement de bureau","Autres immobilisations corporelles",2282,228,0,Fixed Asset,Asset,TND
+"Emballages récupérables identifiables","Autres immobilisations corporelles",2286,228,0,Fixed Asset,Asset,TND
+"Immobilisations en cours","CLASSE 2 : actifs non courants",23,2,1,,,TND
+"Immobilisations incorporelles en cours","Immobilisations en cours",231,23,0,Capital Work in Progress,Asset,TND
+"Immobilisations corporelles en cours","Immobilisations en cours",232,23,0,Capital Work in Progress,Asset,TND
+"Avances & acomptes versés sur immobilisations incorporelles","Immobilisations en cours",237,23,0,Capital Work in Progress,Asset,TND
+"Avances & acomptes versés sur commandes d'immobilisations corporelles","Immobilisations en cours",238,23,0,Capital Work in Progress,Asset,TND
+"Immobilisations à statut juridique particulier","CLASSE 2 : actifs non courants",24,2,0,Fixed Asset,Asset,TND
+"Participations & créances liées à des participations","CLASSE 2 : actifs non courants",25,2,1,,,TND
+"Titres de participation","Participations & créances liées à des participations",251,25,1,,,TND
+"Actions","Titres de participation",2511,251,0,Fixed Asset,Asset,TND
+"Autres titres","Titres de participation",2518,251,0,Fixed Asset,Asset,TND
+"Autres formes de participation","Participations & créances liées à des participations",256,25,0,Fixed Asset,Asset,TND
+"Créances rattachées à des participations","Participations & créances liées à des participations",257,25,1,,,TND
+"Créances rattachées à des participations (groupe)","Créances rattachées à des participations",2571,257,0,Fixed Asset,Asset,TND
+"Créances rattachées à des participations (hors groupe)","Créances rattachées à des participations",2574,257,0,Fixed Asset,Asset,TND
+"Versements représentatifs d'apports non capitalisés","Créances rattachées à des participations",2575,257,0,Fixed Asset,Asset,TND
+"Avances consolidables","Créances rattachées à des participations",2576,257,0,Fixed Asset,Asset,TND
+"Autres créances rattachées à des participations","Créances rattachées à des participations",2577,257,0,Fixed Asset,Asset,TND
+"Créances rattachées à des sociétés en participation","Participations & créances liées à des participations",258,25,0,Fixed Asset,Asset,TND
+"Versements restant à effectuer sur titres de participation non libérés","Participations & créances liées à des participations",259,25,0,Fixed Asset,Asset,TND
+"Autres immobilisations financières","CLASSE 2 : actifs non courants",26,2,1,,,TND
+"Titres immobilisés (droit de propriété)","Autres immobilisations financières",261,26,1,,,TND
+"Actions (Titres immobilisés)","Titres immobilisés (droit de propriété)",2611,261,0,Fixed Asset,Asset,TND
+"Autres titres (Titres immobilisés)","Titres immobilisés (droit de propriété)",2618,261,0,Fixed Asset,Asset,TND
+"Titres immobilisés (droit de créance)","Autres immobilisations financières",262,26,1,,,TND
+"Obligations","Titres immobilisés (droit de créance)",2621,262,0,Fixed Asset,Asset,TND
+"Bons","Titres immobilisés (droit de créance)",2622,262,0,Fixed Asset,Asset,TND
+"Prêts","Autres immobilisations financières",264,26,1,,,TND
+"Prêts participatifs","Prêts",2641,264,0,Fixed Asset,Asset,TND
+"Prêts aux associés","Prêts",2642,264,0,Fixed Asset,Asset,TND
+"Prêts au personnel","Prêts",2643,264,0,Fixed Asset,Asset,TND
+"Prêts assortis de sûretés","Prêts",2645,264,0,Fixed Asset,Asset,TND
+"Autres prêts","Prêts",2648,264,0,Fixed Asset,Asset,TND
+"Dépôts et cautionnements versés","Autres immobilisations financières",265,26,1,,,TND
+"Dépôts","Dépôts et cautionnements versés",2651,265,0,Fixed Asset,Asset,TND
+"Cautionnements","Dépôts et cautionnements versés",2655,265,0,Fixed Asset,Asset,TND
+"Dépôts bancaires non courants","Dépôts et cautionnements versés",2656,265,0,Fixed Asset,Asset,TND
+"Autres dépôts et cautionnements","Dépôts et cautionnements versés",2658,265,0,Fixed Asset,Asset,TND
+"Autres créances immobilisées","Autres immobilisations financières",266,26,1,,,TND
+"Créances immobilisées","Autres créances immobilisées",2661,266,0,Fixed Asset,Asset,TND
+"Créances diverses","Autres créances immobilisées",2667,266,0,Fixed Asset,Asset,TND
+"Autres créances non courantes","Autres immobilisations financières",2668,266,0,Fixed Asset,Asset,TND
+"Versements restant à effectuer sur titres immobilisés non libérés","Autres immobilisations financières",269,26,0,Fixed Asset,Asset,TND
+"Autres actifs non courants","CLASSE 2 : actifs non courants",27,2,1,,,TND
+"Frais préliminaires","Autres actifs non courants",271,27,0,Asset,Asset,TND
+"Charges à répartir","Autres actifs non courants",272,27,0,Asset,Asset,TND
+"Frais d'émission et primes de remboursement des emprunts","Autres actifs non courants",273,27,0,Asset,Asset,TND
+"Écarts de conversion - Actif","Autres actifs non courants",275,27,0,Asset,Asset,TND
+"Autres actifs divers","Autres actifs non courants",278,27,0,Asset,Asset,TND
+"Amortissements des immobilisations","CLASSE 2 : actifs non courants",28,2,1,,,TND
+"Amortissements des immobilisations incorporelles","Amortissements des immobilisations",281,28,0,Accumulated Depreciation,Asset,TND
+"Amortissements des immobilisations corporelles","Amortissements des immobilisations",282,28,0,Accumulated Depreciation,Asset,TND
+"Amortissements des immobilisations à statut juridique particulier","Amortissements des immobilisations",284,28,0,Accumulated Depreciation,Asset,TND
+"Provisions pour dépréciation des immobilisations","CLASSE 2 : actifs non courants",29,2,1,,,TND
+"Provisions pour dépréciation des immobilisations incorporelles","Provisions pour dépréciation des immobilisations",291,29,0,Accumulated Depreciation,Asset,TND
+"Provisions pour dépréciation des immobilisations corporelles","Provisions pour dépréciation des immobilisations",292,29,0,Accumulated Depreciation,Asset,TND
+"Provisions pour dépréciation des immobilisations en cours","Provisions pour dépréciation des immobilisations",293,29,0,Accumulated Depreciation,Asset,TND
+"Provisions pour dépréciation des immobilisations à statut juridique particulier","Provisions pour dépréciation des immobilisations",294,29,0,Accumulated Depreciation,Asset,TND
+"Provisions dépréciation participations & créances liées","Provisions pour dépréciation des immobilisations",295,29,0,Accumulated Depreciation,Asset,TND
+"Provisions dépréciation autres immobilisations financières","Provisions pour dépréciation des immobilisations",296,29,0,Accumulated Depreciation,Asset,TND
+"CLASSE 3 : stocks","",3,,1,,,TND
+"Matières premières & fournitures liées","CLASSE 3 : stocks",31,3,1,,,TND
+"Matières premières","Matières premières & fournitures liées",311,31,0,Stock,Asset,TND
+"Fournitures","Matières premières & fournitures liées",313,31,0,Stock,Asset,TND
+"Autres matières et fournitures","Matières premières & fournitures liées",317,31,0,Stock,Asset,TND
+"Autres approvisionnements","CLASSE 3 : stocks",32,3,1,,,TND
+"Matières consommables","Autres approvisionnements",321,32,0,Stock,Asset,TND
+"Fournitures consommables","Autres approvisionnements",322,32,0,Stock,Asset,TND
+"Emballages","Autres approvisionnements",326,32,0,Stock,Asset,TND
+"Autres approvisionnements divers","Autres approvisionnements",327,32,0,Stock,Asset,TND
+"En-cours de production de biens","CLASSE 3 : stocks",33,3,1,,,TND
+"Produits en cours","En-cours de production de biens",331,33,0,Stock,Asset,TND
+"Travaux en cours","En-cours de production de biens",335,33,0,Stock,Asset,TND
+"En-cours de production de services","CLASSE 3 : stocks",34,3,1,,,TND
+"Études en cours","En-cours de production de services",341,34,0,Stock,Asset,TND
+"Prestations de services en cours","En-cours de production de services",345,34,0,Stock,Asset,TND
+"Stocks de produits","CLASSE 3 : stocks",35,3,1,,,TND
+"Produits intermédiaires","Stocks de produits",351,35,0,Stock,Asset,TND
+"Produits finis","Stocks de produits",355,35,0,Stock,Asset,TND
+"Produits résiduels","Stocks de produits",357,35,0,Stock,Asset,TND
+"Stocks de marchandises","CLASSE 3 : stocks",37,3,0,Stock,Asset,TND
+"Provisions pour dépréciation des stocks","CLASSE 3 : stocks",39,3,0,Stock Adjustment,Asset,TND
+"CLASSE 4 : tiers","",4,,1,,,TND
+"Fournisseurs & comptes rattachés","CLASSE 4 : tiers",40,4,1,,,TND
+"Fournisseurs d'exploitation","Fournisseurs & comptes rattachés",401,40,1,,,TND
+"Fournisseurs - achats de biens ou de prestations de services","Fournisseurs d'exploitation",4011,401,0,Payable,Liability,TND
+"Fournisseurs - retenues de garantie","Fournisseurs d'exploitation",4017,401,0,Payable,Liability,TND
+"Fournisseurs d'exploitation - effets à payer","Fournisseurs & comptes rattachés",403,40,0,Payable,Liability,TND
+"Fournisseurs d'immobilisations","Fournisseurs & comptes rattachés",404,40,1,,,TND
+"Fournisseurs - achats d'immobilisations","Fournisseurs d'immobilisations",4041,404,0,Payable,Liability,TND
+"Fournisseurs d'immobilisations - retenues de garantie","Fournisseurs d'immobilisations",4047,404,0,Payable,Liability,TND
+"Fournisseurs d'immobilisations - effets à payer","Fournisseurs & comptes rattachés",405,40,0,Payable,Liability,TND
+"Fournisseurs - factures non parvenues","Fournisseurs & comptes rattachés",408,40,1,,,TND
+"Fournisseurs d'exploitation (Factures non parvenues)","Fournisseurs - factures non parvenues",4081,408,0,Payable,Liability,TND
+"Fournisseurs d'immobilisations (Factures non parvenues)","Fournisseurs - factures non parvenues",4084,408,0,Payable,Liability,TND
+"Fournisseurs - intérêts courus","Fournisseurs - factures non parvenues",4088,408,0,Payable,Liability,TND
+"Fournisseurs débiteurs","CLASSE 4 : tiers",409,4,1,,,TND
+"Fournisseurs - avances et acomptes versés sur commandes","Fournisseurs débiteurs",4091,409,0,Receivable,Asset,TND
+"Fournisseurs - créances pour emballages et matériel à rendre","Fournisseurs débiteurs",4096,409,0,Receivable,Asset,TND
+"Fournisseurs - autres avoirs","Fournisseurs débiteurs",4097,409,1,,,TND
+"Fournisseurs d'exploitation - autres avoirs","Fournisseurs - autres avoirs",40971,4097,0,Receivable,Asset,TND
+"Fournisseurs d'immobilisations - autres avoirs","Fournisseurs - autres avoirs",40974,4097,0,Receivable,Asset,TND
+"Rabais, remises, ristournes à obtenir","Fournisseurs débiteurs",4098,409,0,Receivable,Asset,TND
+"Clients & comptes rattachés","CLASSE 4 : tiers",41,4,1,,,TND
+"Clients","Clients & comptes rattachés",411,41,1,,,TND
+"Clients - ventes de biens ou de prestations de services","Clients",4111,411,0,Receivable,Asset,TND
+"Clients - retenues de garantie","Clients",4117,411,0,Receivable,Asset,TND
+"Clients - effets à recevoir","Clients & comptes rattachés",413,41,0,Receivable,Asset,TND
+"Clients douteux ou litigieux","Clients & comptes rattachés",416,41,0,Receivable,Asset,TND
+"Créances sur travaux non encore facturables","Clients & comptes rattachés",417,41,0,Receivable,Asset,TND
+"Clients - produits non encore facturés","Clients & comptes rattachés",418,41,1,,,TND
+"Factures à établir","Clients - produits non encore facturés",4181,418,0,Receivable,Asset,TND
+"Intérêts courus (Clients)","Clients - produits non encore facturés",4188,418,0,Receivable,Asset,TND
+"Clients créditeurs","CLASSE 4 : tiers",419,4,1,,,TND
+"Clients - avances et acomptes reçus sur commandes","Clients créditeurs",4191,419,0,Payable,Liability,TND
+"Clients - dettes pour emballages et matériel consignés","Clients créditeurs",4196,419,0,Payable,Liability,TND
+"Clients - autres avoirs","Clients créditeurs",4197,419,0,Payable,Liability,TND
+"Rabais, remises, ristournes à accorder","Clients créditeurs",4198,419,0,Payable,Liability,TND
+"Personnel et comptes rattachés","CLASSE 4 : tiers",42,4,1,,,TND
+"Personnel - Rémunérations Dues","Personnel et comptes rattachés",421,42,0,Payable,Liability,TND
+"Personnel - Avances et Acomptes","CLASSE 4 : tiers",425,4,0,Receivable,Asset,TND
+"Comités d'entreprises et autres organes représentatifs","Personnel et comptes rattachés",422,42,0,Payable,Liability,TND
+"Personnel, œuvres sociales","Personnel et comptes rattachés",423,42,0,Payable,Liability,TND
+"Personnel - dépôts","Personnel et comptes rattachés",426,42,0,Payable,Liability,TND
+"Personnel - oppositions","Personnel et comptes rattachés",427,42,0,Payable,Liability,TND
+"Personnel - charges à payer & produits à recevoir","Personnel et comptes rattachés",428,42,1,,,TND
+"Dettes provisionnées pour congés à payer","Personnel - charges à payer & produits à recevoir",4282,428,0,Payable,Liability,TND
+"Autres charges à payer (Personnel)","Personnel - charges à payer & produits à recevoir",4286,428,0,Payable,Liability,TND
+"Produits à recevoir (Personnel)","Personnel - charges à payer & produits à recevoir",4287,428,0,Payable,Liability,TND
+"Etat et collectivités publiques","CLASSE 4 : tiers",43,4,1,,,TND
+"Etat - subventions à recevoir","Etat et collectivités publiques",431,43,0,Receivable,Asset,TND
+"Etat, impôts et taxes retenus à la source","Etat et collectivités publiques",432,43,0,Payable,Liability,TND
+"Opérations particulières avec l'Etat","Etat et collectivités publiques",433,43,0,Payable,Liability,TND
+"Etat - impôts sur les bénéfices","Etat et collectivités publiques",434,43,1,,,TND
+"Retenue à la source","Etat - impôts sur les bénéfices",4341,434,0,Payable,Liability,TND
+"Acomptes provisionnels","Etat - impôts sur les bénéfices",4342,434,0,Payable,Liability,TND
+"Impôt à liquider","Etat - impôts sur les bénéfices",4343,434,0,Payable,Liability,TND
+"Impôts différés","Etat - impôts sur les bénéfices",4349,434,0,Payable,Liability,TND
+"Obligations cautionnées","Etat et collectivités publiques",435,43,0,Payable,Liability,TND
+"Etat - taxes sur le chiffre d'affaires","Etat et collectivités publiques",436,43,1,,,TND
+"Taxes sur le chiffre d'affaires à décaisser","Etat - taxes sur le chiffre d'affaires",4365,436,1,,,TND
+"TVA à payer","Taxes sur le chiffre d'affaires à décaisser",43651,4365,0,Tax,Liability,TND
+"Autres taxes sur le chiffre d'affaires (à décaisser)","Taxes sur le chiffre d'affaires à décaisser",43658,4365,0,Tax,Liability,TND
+"Taxes sur le chiffre d'affaires déductibles","Etat - taxes sur le chiffre d'affaires",4366,436,1,,,TND
+"TVA sur immobilisations","Taxes sur le chiffre d'affaires déductibles",43662,4366,0,Tax,Asset,TND
+"TVA transférée par d'autres entreprises","Taxes sur le chiffre d'affaires déductibles",43663,4366,0,Tax,Asset,TND
+"TVA sur autres biens et services","Taxes sur le chiffre d'affaires déductibles",43666,4366,0,Tax,Asset,TND
+"Crédit de TVA à reporter","Taxes sur le chiffre d'affaires déductibles",43667,4366,0,Tax,Asset,TND
+"Autres taxes sur le chiffre d'affaires (déductibles)","Taxes sur le chiffre d'affaires déductibles",43668,4366,0,Tax,Asset,TND
+"Taxes sur le chiffre d'affaires collectées par l'entreprise","Etat - taxes sur le chiffre d'affaires",4367,436,1,,,TND
+"TVA collectée","Taxes sur le chiffre d'affaires collectées par l'entreprise",43671,4367,1,,,TND
+"TVA collectée sur les débits","TVA collectée",436711,43671,0,Tax,Liability,TND
+"TVA collectée sur les encaissements","TVA collectée",436712,43671,0,Tax,Liability,TND
+"Etat - TVA à décaisser","Taxes sur le chiffre d'affaires collectées par l'entreprise",43679,4367,0,Tax,Liability,TND
+"Autres taxes sur le chiffre d'affaires (collectées)","Taxes sur le chiffre d'affaires collectées par l'entreprise",43678,4367,0,Tax,Liability,TND
+"Taxes sur le chiffre d'affaires à régulariser ou en attente","Etat - taxes sur le chiffre d'affaires",4368,436,0,Tax,Liability,TND
+"Autres impôts, taxes et versements assimilés","Etat et collectivités publiques",437,43,0,Tax,Liability,TND
+"Etat - charges à payer et produits à recevoir","Etat et collectivités publiques",438,43,1,,,TND
+"Charges fiscales sur congés à payer","Etat - charges à payer et produits à recevoir",4382,438,0,Payable,Liability,TND
+"Autres charges à payer (Etat)","Etat - charges à payer et produits à recevoir",4386,438,0,Payable,Liability,TND
+"Produits à recevoir (Etat)","Etat - charges à payer et produits à recevoir",4387,438,0,Payable,Liability,TND
+"Sociétés du groupe & associés","CLASSE 4 : tiers",44,4,1,,,TND
+"Groupe","Sociétés du groupe & associés",441,44,1,,,TND
+"Créances et intérêts courus","Groupe",4411,441,0,Receivable,Asset,TND
+"Dettes et intérêts à payer","Groupe",4412,441,0,Payable,Liability,TND
+"Associés - comptes courants","Sociétés du groupe & associés",442,44,1,,,TND
+"Principal (Associés)","Associés - comptes courants",4421,442,0,Payable,Liability,TND
+"Intérêts courus (Associés)","Associés - comptes courants",4428,442,0,Payable,Liability,TND
+"Associés - opérations sur le capital","Sociétés du groupe & associés",446,44,0,Payable,Liability,TND
+"Associés - dividendes à payer","Sociétés du groupe & associés",447,44,0,Payable,Liability,TND
+"Associés - opérations faites en commun","Sociétés du groupe & associés",448,44,1,,,TND
+"Opérations courantes (Associés)","Associés - opérations faites en commun",4481,448,0,Payable,Liability,TND
+"Intérêts courus sur opérations en commun","Associés - opérations faites en commun",4488,448,0,Payable,Liability,TND
+"Débiteurs divers et Créditeurs divers","CLASSE 4 : tiers",45,4,1,,,TND
+"Créances sur cessions d'immobilisations","Débiteurs divers et Créditeurs divers",452,45,0,Receivable,Asset,TND
+"Sécurité sociale et autres organismes sociaux","Débiteurs divers et Créditeurs divers",453,45,1,,,TND
+"Organismes sociaux","Sécurité sociale et autres organismes sociaux",4531,453,1,,,TND
+"CNSS","Organismes sociaux",45311,4531,0,Payable,Liability,TND
+"Autres Organismes Sociaux","Organismes sociaux",45318,4531,0,Payable,Liability,TND
+"Organismes sociaux - charges à payer et produits à recevoir","Sécurité sociale et autres organismes sociaux",4538,453,1,,,TND
+"Charges sociales sur congés à payer","Organismes sociaux - charges à payer et produits à recevoir",45382,4538,0,Payable,Liability,TND
+"Autres charges à payer (Organismes Sociaux)","Organismes sociaux - charges à payer et produits à recevoir",45386,4538,0,Payable,Liability,TND
+"Produits à recevoir (Organismes Sociaux)","Organismes sociaux - charges à payer et produits à recevoir",45387,4538,0,Payable,Liability,TND
+"Dettes sur acquisitions de valeurs mobilières de placement","Débiteurs divers et Créditeurs divers",454,45,0,Payable,Liability,TND
+"Créances sur cessions de valeurs mobilières de placement","Débiteurs divers et Créditeurs divers",455,45,0,Receivable,Asset,TND
+"Autres comptes débiteurs ou créditeurs","Débiteurs divers et Créditeurs divers",457,45,0,Payable,Liability,TND
+"Diverses charges à payer et produits à recevoir","Débiteurs divers et Créditeurs divers",458,45,1,,,TND
+"Charges à payer","Diverses charges à payer et produits à recevoir",4586,458,0,Payable,Liability,TND
+"Produits à recevoir","Diverses charges à payer et produits à recevoir",4587,458,0,Payable,Liability,TND
+"Comptes transitoires ou d'attente","CLASSE 4 : tiers",46,4,1,,,TND
+"Compte d'attente","Comptes transitoires ou d'attente",461,46,0,Temporary,Liability,TND
+"Différence de conversion sur éléments courants","Comptes transitoires ou d'attente",465,46,1,,,TND
+"Différences de conversion actif","Différence de conversion sur éléments courants",4651,465,0,Asset,Asset,TND
+"Différences de conversion passif","Différence de conversion sur éléments courants",4652,465,0,Liability,Liability,TND
+"Autres comptes transitoires","Comptes transitoires ou d'attente",468,46,0,Temporary,Liability,TND
+"Comptes de régularisation","CLASSE 4 : tiers",47,4,1,,,TND
+"Charges constatées d'avance","Comptes de régularisation",471,47,0,Asset,Asset,TND
+"Produits constatés d'avance","Comptes de régularisation",472,47,0,Liability,Liability,TND
+"Comptes de répartition périodique de charges et produits","Comptes de régularisation",478,47,1,,,TND
+"Charges (Répartition périodique)","Comptes de répartition périodique de charges et produits",4786,478,0,Liability,Liability,TND
+"Produits (Répartition périodique)","Comptes de répartition périodique de charges et produits",4787,478,0,Liability,Liability,TND
+"Provisions courantes pour risques et charges","CLASSE 4 : tiers",48,4,0,Liability,Liability,TND
+"Provisions pour dépréciation des comptes de tiers","CLASSE 4 : tiers",49,4,1,,,TND
+"Provisions pour dépréciation des comptes clients","Provisions pour dépréciation des comptes de tiers",491,49,0,Accumulated Depreciation,Asset,TND
+"Provisions dépréciation comptes groupe et associés","Provisions pour dépréciation des comptes de tiers",494,49,1,,,TND
+"Comptes du groupe","Provisions dépréciation comptes groupe et associés",4941,494,0,Accumulated Depreciation,Asset,TND
+"Comptes courants des associés","Provisions dépréciation comptes groupe et associés",4942,494,0,Accumulated Depreciation,Asset,TND
+"Opérations faites en commun","Provisions dépréciation comptes groupe et associés",4948,494,0,Accumulated Depreciation,Asset,TND
+"Provisions dépréciation comptes de débiteurs divers","Provisions pour dépréciation des comptes de tiers",495,49,1,,,TND
+"Créances sur cession d'immobilisation (Provision)","Provisions dépréciation comptes de débiteurs divers",4952,495,0,Accumulated Depreciation,Asset,TND
+"Créances sur cession VMP (Provision)","Provisions dépréciation comptes de débiteurs divers",4955,495,0,Accumulated Depreciation,Asset,TND
+"Autres comptes débiteurs (Provision)","Provisions dépréciation comptes de débiteurs divers",4957,495,0,Accumulated Depreciation,Asset,TND
+"CLASSE 5 : Comptes financiers","",5,,1,,,TND
+"Emprunts et autres dettes financières courants","CLASSE 5 : Comptes financiers",50,5,1,,,TND
+"Emprunts courants liés au cycle d'exploitation","Emprunts et autres dettes financières courants",501,50,0,Liability,Liability,TND
+"Échéances à moins d'un an sur emprunts non courants","Emprunts et autres dettes financières courants",505,50,0,Liability,Liability,TND
+"Concours bancaires courants","Emprunts et autres dettes financières courants",506,50,1,,,TND
+"Crédit de mobilisation de créances commerciales","Concours bancaires courants",5061,506,0,Liability,Liability,TND
+"Mobilisation de créances nées à l'étranger","Concours bancaires courants",5063,506,0,Liability,Liability,TND
+"Autres concours bancaires","Concours bancaires courants",5067,506,0,Liability,Liability,TND
+"Emprunts échus et impayés","Emprunts et autres dettes financières courants",507,50,0,Liability,Liability,TND
+"Intérêts courus sur emprunts","Emprunts et autres dettes financières courants",508,50,0,Liability,Liability,TND
+"Prêts et autres créances financières courants","CLASSE 5 : Comptes financiers",51,5,1,,,TND
+"Prêts courants liés au cycle d'exploitation","Prêts et autres créances financières courants",511,51,0,Asset,Asset,TND
+"Échéances à moins d'un an sur prêts non courants","Prêts et autres créances financières courants",516,51,0,Asset,Asset,TND
+"Échéances à moins d'un an sur autres créances financières","Prêts et autres créances financières courants",517,51,0,Asset,Asset,TND
+"Intérêts courus sur prêts","Prêts et autres créances financières courants",518,51,0,Asset,Asset,TND
+"Placements courants","CLASSE 5 : Comptes financiers",52,5,1,,,TND
+"Actions (Placements)","Placements courants",523,52,1,,,TND
+"Titres cotés (Actions)","Actions (Placements)",5231,523,0,Asset,Asset,TND
+"Titres non cotés (Actions)","Actions (Placements)",5235,523,0,Asset,Asset,TND
+"Autres titres conférant un droit de propriété","Placements courants",524,52,0,Asset,Asset,TND
+"Obligations et bons émis par la société et rachetés","Placements courants",525,52,0,Asset,Asset,TND
+"Obligations (Placements)","Placements courants",526,52,1,,,TND
+"Titres cotés (Obligations)","Obligations (Placements)",5261,526,0,Asset,Asset,TND
+"Titres non cotés (Obligations)","Obligations (Placements)",5265,526,0,Asset,Asset,TND
+"Échéances à moins d'un an sur les obligations immobilisées","Obligations (Placements)",5266,526,0,Asset,Asset,TND
+"Bons du trésor et bons de caisse à court terme","Placements courants",527,52,0,Asset,Asset,TND
+"Autres placements courants et créances assimilées","Placements courants",528,52,1,,,TND
+"Autres valeurs mobilières","Autres placements courants et créances assimilées",5281,528,0,Asset,Asset,TND
+"Intérêts courus sur placements","Autres placements courants et créances assimilées",5288,528,0,Asset,Asset,TND
+"Versements restant à effectuer sur VMP non libérées","Placements courants",529,52,0,Asset,Asset,TND
+"Banques, établissements financiers et assimilés","CLASSE 5 : Comptes financiers",53,5,1,,,TND
+"Valeurs à l'encaissement","Banques, établissements financiers et assimilés",531,53,1,,,TND
+"Coupons échus à l'encaissement","Valeurs à l'encaissement",5311,531,0,Bank,Asset,TND
+"Chèques à encaisser","Valeurs à l'encaissement",5312,531,0,Bank,Asset,TND
+"Effets à l'encaissement","Valeurs à l'encaissement",5313,531,0,Bank,Asset,TND
+"Effets à l'escompte","Valeurs à l'encaissement",5314,531,0,Bank,Asset,TND
+"Banques","Banques, établissements financiers et assimilés",532,53,1,,,TND
+"Comptes en dinars","Banques",5321,532,0,Bank,Asset,TND
+"Comptes en devises","Banques",5324,532,0,Bank,Asset,TND
+"C.C.P.","Banques, établissements financiers et assimilés",534,53,0,Bank,Asset,TND
+"Comptes au trésor","Banques, établissements financiers et assimilés",535,53,0,Bank,Asset,TND
+"Autres organismes financiers","Banques, établissements financiers et assimilés",537,53,0,Bank,Asset,TND
+"Caisse","CLASSE 5 : Comptes financiers",54,5,1,,,TND
+"Caisse siège social","Caisse",541,54,1,,,TND
+"Caisse en dinars","Caisse siège social",5411,541,0,Cash,Asset,TND
+"Caisse en devises","Caisse siège social",5414,541,0,Cash,Asset,TND
+"Caisses succursales","Caisse",542,54,0,Cash,Asset,TND
+"Régies d'avances et accréditifs","CLASSE 5 : Comptes financiers",55,5,0,Cash,Asset,TND
+"Virements internes","CLASSE 5 : Comptes financiers",58,5,0,Temporary,Asset,TND
+"Provisions pour dépréciation des comptes financiers","CLASSE 5 : Comptes financiers",59,5,0,Accumulated Depreciation,Asset,TND
+"CLASSE 6 : charges","",6,,1,,,TND
+"Achats","CLASSE 6 : charges",60,6,1,,,TND
+"Achats stockés - Matières premières et fournitures liées","Achats",601,60,0,Expense,Expense,TND
+"Achats stockés - Autres approvisionnements","Achats",602,60,1,,,TND
+"Matières consommables","Achats stockés - Autres approvisionnements",6021,602,0,Expense,Expense,TND
+"Fournitures consommables","Achats stockés - Autres approvisionnements",6022,602,0,Expense,Expense,TND
+"Emballages (Achats)","Achats stockés - Autres approvisionnements",6026,602,0,Expense,Expense,TND
+"Achats Consommés (Approvisionnements et Marchandises)","CLASSE 6 : charges",603,6,1,,,TND
+"Achats Consommés de Marchandises","Achats Consommés (Approvisionnements et Marchandises)",6037,603,0,Cost of Goods Sold,Expense,TND
+"Achats d’études et de prestations de services","Achats",604,60,0,Expense,Expense,TND
+"Achats de matériel, équipements et travaux","Achats",605,60,0,Expense,Expense,TND
+"Achats non stockés de matières et fournitures","Achats",606,60,0,Expense,Expense,TND
+"Achats de marchandises","Achats",607,60,0,Expense,Expense,TND
+"Achats liés à une modification comptable","Achats",608,60,0,Expense,Expense,TND
+"Rabais, remises et ristournes obtenus sur achats","Achats",609,60,1,,,TND
+"RRR liés à une modification comptable","Rabais, remises et ristournes obtenus sur achats",6098,609,0,Expense,Expense,TND
+"Services extérieurs","CLASSE 6 : charges",61,6,1,,,TND
+"Sous-traitance générale","Services extérieurs",611,61,0,Expense,Expense,TND
+"Redevances pour utilisation d'immobilisations concédées","Services extérieurs",612,61,0,Expense,Expense,TND
+"Locations","Services extérieurs",613,61,0,Expense,Expense,TND
+"Charges locatives et de copropriété","Services extérieurs",614,61,0,Expense,Expense,TND
+"Entretien et réparations","Services extérieurs",615,61,0,Expense,Expense,TND
+"Primes d'assurances","Services extérieurs",616,61,0,Expense,Expense,TND
+"Études, recherches et divers services extérieurs","Services extérieurs",617,61,0,Expense,Expense,TND
+"Autres charges liées à une modification comptable (Services)","Services extérieurs",618,61,0,Expense,Expense,TND
+"RRR obtenus sur services extérieurs","Services extérieurs",619,61,0,Expense,Expense,TND
+"Autres services extérieurs","CLASSE 6 : charges",62,6,1,,,TND
+"Personnel extérieur à l'entreprise","Autres services extérieurs",621,62,0,Expense,Expense,TND
+"Rémunération d'intermédiaires et honoraires","Autres services extérieurs",622,62,0,Expense,Expense,TND
+"Publicité, publications, relations publiques","Autres services extérieurs",623,62,0,Expense,Expense,TND
+"Transports de biens et transports collectifs du personnel","Autres services extérieurs",624,62,1,,,TND
+"Transports sur achats","Transports de biens et transports collectifs du personnel",6241,624,0,Expense,Expense,TND
+"Transports sur ventes","Transports de biens et transports collectifs du personnel",6242,624,0,Expense,Expense,TND
+"Transports administratifs","Transports de biens et transports collectifs du personnel",6244,624,0,Expense,Expense,TND
+"Transports collectifs du personnel","Transports de biens et transports collectifs du personnel",6247,624,0,Expense,Expense,TND
+"Transports divers","Transports de biens et transports collectifs du personnel",6248,624,0,Expense,Expense,TND
+"Déplacements, missions et réceptions","Autres services extérieurs",625,62,1,,,TND
+"Voyages et déplacements","Déplacements, missions et réceptions",6251,625,0,Expense,Expense,TND
+"Frais de déménagement","Déplacements, missions et réceptions",6255,625,0,Expense,Expense,TND
+"Missions","Déplacements, missions et réceptions",6256,625,0,Expense,Expense,TND
+"Réceptions","Déplacements, missions et réceptions",6257,625,0,Expense,Expense,TND
+"Frais postaux et frais de télécommunications","Autres services extérieurs",626,62,0,Expense,Expense,TND
+"Services bancaires et assimilés","Autres services extérieurs",627,62,1,,,TND
+"Frais sur titres (achats, vente, garde)","Services bancaires et assimilés",6271,627,0,Expense,Expense,TND
+"Commissions et frais sur émission d'emprunts","Services bancaires et assimilés",6272,627,0,Expense,Expense,TND
+"Frais sur effets","Services bancaires et assimilés",6275,627,0,Expense,Expense,TND
+"Location de coffres","Services bancaires et assimilés",6276,627,0,Expense,Expense,TND
+"Autres frais et commissions sur prestations de services","Services bancaires et assimilés",6278,627,0,Expense,Expense,TND
+"Autres services extérieurs liés à une modif. comptable","Autres services extérieurs",628,62,0,Expense,Expense,TND
+"RRR obtenus sur autres services extérieurs","Autres services extérieurs",629,62,0,Expense,Expense,TND
+"Charges divers ordinaires","CLASSE 6 : charges",63,6,1,,,TND
+"Redevances pour concessions, brevets, licences, etc.","Charges divers ordinaires",631,63,0,Expense,Expense,TND
+"Jetons de présence","Charges divers ordinaires",633,63,0,Expense,Expense,TND
+"Pertes sur créances irrécouvrables","Charges divers ordinaires",634,63,1,,,TND
+"Créances de l'exercice","Pertes sur créances irrécouvrables",6341,634,0,Expense,Expense,TND
+"Créances des exercices antérieurs","Pertes sur créances irrécouvrables",6344,634,0,Expense,Expense,TND
+"Quotes-parts de résultat sur opérations faites en commun","Charges divers ordinaires",635,63,1,,,TND
+"Quote-part de bénéfice transférée","Quotes-parts de résultat sur opérations faites en commun",6351,635,0,Expense,Expense,TND
+"Quote-part de perte supportée","Quotes-parts de résultat sur opérations faites en commun",6355,635,0,Expense,Expense,TND
+"Charges nettes sur cessions d'immobilisations","Charges divers ordinaires",636,63,0,Expense,Expense,TND
+"Réduction de valeur","Charges divers ordinaires",637,63,0,Expense,Expense,TND
+"Charges divers ordinaires liés à une modif. comptable","Charges divers ordinaires",638,63,0,Expense,Expense,TND
+"Charges de personnel","CLASSE 6 : charges",64,6,1,,,TND
+"Salaires et compléments de salaires","Charges de personnel",640,64,1,,,TND
+"Salaires","Salaires et compléments de salaires",6400,640,0,Expense,Expense,TND
+"Heures supplémentaires (Salaires)","Salaires et compléments de salaires",6401,640,0,Expense,Expense,TND
+"Primes (Salaires)","Salaires et compléments de salaires",6402,640,0,Expense,Expense,TND
+"Gratifications (Salaires)","Salaires et compléments de salaires",6403,640,0,Expense,Expense,TND
+"Avantages en nature (Salaires)","Salaires et compléments de salaires",6404,640,0,Expense,Expense,TND
+"Autres compléments de salaires","Salaires et compléments de salaires",6409,640,0,Expense,Expense,TND
+"Appointements et compléments d'appointements","Charges de personnel",642,64,1,,,TND
+"Appointements","Appointements et compléments d'appointements",6420,642,0,Expense,Expense,TND
+"Heures supplémentaires (Appointements)","Appointements et compléments d'appointements",6421,642,0,Expense,Expense,TND
+"Primes (Appointements)","Appointements et compléments d'appointements",6422,642,0,Expense,Expense,TND
+"Gratifications (Appointements)","Appointements et compléments d'appointements",6423,642,0,Expense,Expense,TND
+"Avantages en nature (Appointements)","Appointements et compléments d'appointements",6424,642,0,Expense,Expense,TND
+"Autres compléments d'appointements","Appointements et compléments d'appointements",6429,642,0,Expense,Expense,TND
+"Indemnités représentatives de frais","Charges de personnel",643,64,0,Expense,Expense,TND
+"Commissions au personnel","Charges de personnel",644,64,1,,,TND
+"Commissions sur achats","Commissions au personnel",6440,644,0,Expense,Expense,TND
+"Commissions sur ventes","Commissions au personnel",6441,644,0,Expense,Expense,TND
+"Rémunérations des administrateurs, gérants et associés","Charges de personnel",645,64,0,Expense,Expense,TND
+"Charges connexes aux rémunérations","Charges de personnel",646,64,1,,,TND
+"Charges connexes aux salaires","Charges connexes aux rémunérations",6460,646,1,,,TND
+"Congés payés (Salaires)","Charges connexes aux salaires",64600,6460,0,Expense,Expense,TND
+"Indemnités de préavis et de licenciements (Salaires)","Charges connexes aux salaires",64602,6460,0,Expense,Expense,TND
+"Supplément familial (Salaires)","Charges connexes aux salaires",64604,6460,0,Expense,Expense,TND
+"Charges connexes aux appointements","Charges connexes aux rémunérations",6462,646,1,,,TND
+"Congés payés (Appointements)","Charges connexes aux appointements",64620,6462,0,Expense,Expense,TND
+"Indemnités de préavis et de licenciement (Appointements)","Charges connexes aux appointements",64622,6462,0,Expense,Expense,TND
+"Supplément familial (Appointements)","Charges connexes aux appointements",64624,6462,0,Expense,Expense,TND
+"Charges connexes aux commissions","Charges connexes aux rémunérations",6464,646,1,,,TND
+"Congés payés (Commissions)","Charges connexes aux commissions",64640,6464,0,Expense,Expense,TND
+"Indemnités de préavis et de licenciement (Commissions)","Charges connexes aux commissions",64642,6464,0,Expense,Expense,TND
+"Supplément familial (Commissions)","Charges connexes aux commissions",64644,6464,0,Expense,Expense,TND
+"Charges connexes aux rémunérations des admin. et gérants","Charges connexes aux rémunérations",6465,646,1,,,TND
+"Congés payés (Admin)","Charges connexes aux rémunérations des admin. et gérants",64650,6465,0,Expense,Expense,TND
+"Indemnités de préavis et de licenciement (Admin)","Charges connexes aux rémunérations des admin. et gérants",64652,6465,0,Expense,Expense,TND
+"Supplément familial (Admin)","Charges connexes aux rémunérations des admin. et gérants",64654,6465,0,Expense,Expense,TND
+"Charges sociales légales","Charges de personnel",647,64,1,,,TND
+"Cotisations de sécurité sociale sur salaires","Charges sociales légales",6470,647,0,Expense,Expense,TND
+"Cotisations de sécurité sociale sur appointements","Charges sociales légales",6472,647,0,Expense,Expense,TND
+"Cotisations de sécurité sociale sur commissions","Charges sociales légales",6474,647,0,Expense,Expense,TND
+"Cotisations sécurité sociale sur rémun. admin & gérants","Charges sociales légales",6475,647,0,Expense,Expense,TND
+"Prestations directes","Charges sociales légales",6476,647,0,Expense,Expense,TND
+"Charges de personnel liées à une modif. comptable","Charges de personnel",648,64,0,Expense,Expense,TND
+"Autres charges de personnel et autres charges sociales","Charges de personnel",649,64,1,,,TND
+"Autres charges de personnel","Autres charges de personnel et autres charges sociales",6490,649,0,Expense,Expense,TND
+"Autres charges sociales","Autres charges de personnel et autres charges sociales",6495,649,0,Expense,Expense,TND
+"Charges financières","CLASSE 6 : charges",65,6,1,,,TND
+"Charges d'intérêts","Charges financières",651,65,1,,,TND
+"Intérêts des emprunts et dettes","Charges d'intérêts",6511,651,1,,,TND
+"Intérêts des emprunts et dettes assimilées","Intérêts des emprunts et dettes",65116,6511,0,Expense,Expense,TND
+"Intérêts des dettes rattachées à des participations","Intérêts des emprunts et dettes",65117,6511,0,Expense,Expense,TND
+"Intérêts des comptes courants et des dépôts créditeurs","Charges d'intérêts",6515,651,0,Expense,Expense,TND
+"Intérêts bancaires et sur opérations de financement","Charges d'intérêts",6516,651,0,Expense,Expense,TND
+"Intérêts des obligations cautionnées","Charges d'intérêts",6517,651,0,Expense,Expense,TND
+"Intérêts des autres dettes","Charges d'intérêts",6518,651,0,Expense,Expense,TND
+"Pertes sur créances liées à des participations","Charges financières",653,65,0,Expense,Expense,TND
+"Escomptes accordés","Charges financières",654,65,0,Expense,Expense,TND
+"Pertes de change","Charges financières",655,65,0,Expense,Expense,TND
+"Charges nettes sur cessions de valeurs mobilières","Charges financières",656,65,0,Expense,Expense,TND
+"Autres charges financières","Charges financières",657,65,0,Expense,Expense,TND
+"Charges financières liées à une modif. comptable","Charges financières",658,65,0,Expense,Expense,TND
+"Impôts, taxes et versements assimilés","CLASSE 6 : charges",66,6,1,,,TND
+"Impôts, taxes et versements assimilés sur rémunérations","Impôts, taxes et versements assimilés",661,66,1,,,TND
+"TFP","Impôts, taxes et versements assimilés sur rémunérations",6611,661,0,Tax,Expense,TND
+"FOPROLOS","Impôts, taxes et versements assimilés sur rémunérations",6612,661,0,Tax,Expense,TND
+"Autres taxes sur rémunérations","Impôts, taxes et versements assimilés sur rémunérations",6618,661,0,Tax,Expense,TND
+"Autres impôts, taxes et versements assimilés","Impôts, taxes et versements assimilés",665,66,1,,,TND
+"Impôts et taxes divers","Autres impôts, taxes et versements assimilés",6651,665,0,Tax,Expense,TND
+"Taxes sur le chiffre d'affaires non récupérables","Autres impôts, taxes et versements assimilés",6652,665,0,Tax,Expense,TND
+"Droits d'enregistrement et de timbre","Autres impôts, taxes et versements assimilés",6654,665,0,Tax,Expense,TND
+"Taxes sur les véhicules","Autres impôts, taxes et versements assimilés",6655,665,0,Tax,Expense,TND
+"Autres droits","Autres impôts, taxes et versements assimilés",6658,665,0,Tax,Expense,TND
+"Impôts et taxes liés à une modif. comptable","Impôts, taxes et versements assimilés",668,66,0,Tax,Expense,TND
+"Pertes extraordinaires","CLASSE 6 : charges",67,6,0,Expense,Expense,TND
+"Dotations aux amortissements et aux provisions","CLASSE 6 : charges",68,6,1,,,TND
+"Dotations aux amortissements et provisions - charges ordinaires","Dotations aux amortissements et aux provisions",681,68,1,,,TND
+"Dotations aux amortissements des immob. incorp. et corp.","Dotations aux amortissements et provisions - charges ordinaires",6811,681,1,,,TND
+"Amortissements des immobilisations incorporelles","Dotations aux amortissements des immob. incorp. et corp.",68111,6811,0,Depreciation,Expense,TND
+"Amortissements des immobilisations corporelles","Dotations aux amortissements des immob. incorp. et corp.",68112,6811,0,Depreciation,Expense,TND
+"Dotations aux résorptions des charges reportées","Dotations aux amortissements et provisions - charges ordinaires",6812,681,0,Depreciation,Expense,TND
+"Dotations aux provisions pour risques et charges d'exploitation","Dotations aux amortissements et provisions - charges ordinaires",6815,681,0,Depreciation,Expense,TND
+"Dotations aux provisions dépréciation immob. incorp. et corp.","Dotations aux amortissements et provisions - charges ordinaires",6816,681,1,,,TND
+"Provisions dépréciation des immobilisations incorporelles","Dotations aux provisions dépréciation immob. incorp. et corp.",68161,6816,0,Depreciation,Expense,TND
+"Provisions dépréciation des immobilisations corporelles","Dotations aux provisions dépréciation immob. incorp. et corp.",68162,6816,0,Depreciation,Expense,TND
+"Dotations aux provisions pour dépréciation des actifs courants","Dotations aux amortissements et provisions - charges ordinaires",6817,681,1,,,TND
+"Provisions dépréciation stocks et en-cours","Dotations aux provisions pour dépréciation des actifs courants",68173,6817,0,Depreciation,Expense,TND
+"Provisions dépréciation créances","Dotations aux provisions pour dépréciation des actifs courants",68174,6817,0,Depreciation,Expense,TND
+"Dotations aux amort. & prov. liées à une modif. comptable","Dotations aux amortissements et provisions - charges ordinaires",6818,681,0,Depreciation,Expense,TND
+"Dotations aux amortissements et provisions - charges financières","Dotations aux amortissements et aux provisions",686,68,1,,,TND
+"Dotations amort. primes de remboursement des obligations","Dotations aux amortissements et provisions - charges financières",6861,686,0,Depreciation,Expense,TND
+"Dotations aux provisions pour risques et charges financières","Dotations aux amortissements et provisions - charges financières",6865,686,0,Depreciation,Expense,TND
+"Dotations aux provisions pour dépréciation des éléments financiers","Dotations aux amortissements et provisions - charges financières",6866,686,1,,,TND
+"Provisions dépréciation immobilisations financières","Dotations aux provisions pour dépréciation des éléments financiers",68662,6866,0,Depreciation,Expense,TND
+"Provisions dépréciation placements et prêts courants","Dotations aux provisions pour dépréciation des éléments financiers",68665,6866,0,Depreciation,Expense,TND
+"Dotations aux amort. & prov. liées à une modif. comptable (financier)","Dotations aux amortissements et provisions - charges financières",6868,686,0,Depreciation,Expense,TND
+"Impôts sur les bénéfices","CLASSE 6 : charges",69,6,1,,,TND
+"Impôts sur les bénéfices calculés sur le résultat des act. ordinaires","Impôts sur les bénéfices",691,69,0,Tax,Expense,TND
+"Autres impôts sur les bénéfices","Impôts sur les bénéfices",695,69,0,Tax,Expense,TND
+"Impôts sur les bénéfices calculés sur les éléments extraordinaires","Impôts sur les bénéfices",697,69,0,Tax,Expense,TND
+"CLASSE 7 : produits","",7,,1,,,TND
+"Ventes de produits fabriqués, prestations de services, marchandises","CLASSE 7 : produits",70,7,1,,,TND
+"Ventes de produits finis","Ventes de produits fabriqués, prestations de services, marchandises",701,70,1,,,TND
+"Produits finis achevés","Ventes de produits finis",7011,701,0,Income,Income,TND
+"Produits finis non achevés","Ventes de produits finis",7012,701,0,Income,Income,TND
+"Ventes de produits intermédiaires","Ventes de produits fabriqués, prestations de services, marchandises",702,70,0,Income,Income,TND
+"Ventes de produits résiduels","Ventes de produits fabriqués, prestations de services, marchandises",703,70,0,Income,Income,TND
+"Travaux","Ventes de produits fabriqués, prestations de services, marchandises",704,70,0,Income,Income,TND
+"Études et prestations de services","Ventes de produits fabriqués, prestations de services, marchandises",705,70,0,Income,Income,TND
+"Produits des activités annexes","Ventes de produits fabriqués, prestations de services, marchandises",706,70,0,Income,Income,TND
+"Ventes de marchandises","Ventes de produits fabriqués, prestations de services, marchandises",707,70,0,Income,Income,TND
+"Ventes liées à une modif. comptable","Ventes de produits fabriqués, prestations de services, marchandises",708,70,0,Income,Income,TND
+"Rabais, remises et ristournes accordés par l'entreprise","Ventes de produits fabriqués, prestations de services, marchandises",709,70,1,,,TND
+"RRR sur ventes de produits finis","Rabais, remises et ristournes accordés par l'entreprise",7091,709,0,Income,Income,TND
+"RRR sur ventes de produits intermédiaires","Rabais, remises et ristournes accordés par l'entreprise",7092,709,0,Income,Income,TND
+"RRR sur travaux","Rabais, remises et ristournes accordés par l'entreprise",7094,709,0,Income,Income,TND
+"RRR sur études et prestations de services","Rabais, remises et ristournes accordés par l'entreprise",7095,709,0,Income,Income,TND
+"RRR sur activités annexes","Rabais, remises et ristournes accordés par l'entreprise",7096,709,0,Income,Income,TND
+"RRR sur ventes de marchandises","Rabais, remises et ristournes accordés par l'entreprise",7097,709,0,Income,Income,TND
+"RRR sur ventes liées à une modif. comptable","Rabais, remises et ristournes accordés par l'entreprise",7098,709,0,Income,Income,TND
+"Production stockée (ou déstockage)","CLASSE 7 : produits",71,7,1,,,TND
+"Variation des stocks (en-cours de production, produits)","Production stockée (ou déstockage)",713,71,1,,,TND
+"Variations des en-cours de production de biens","Variation des stocks (en-cours de production, produits)",7133,713,0,Income,Income,TND
+"Variation des en-cours de production de services","Variation des stocks (en-cours de production, produits)",7134,713,0,Income,Income,TND
+"Variation des stocks de produits","Variation des stocks (en-cours de production, produits)",7135,713,0,Income,Income,TND
+"Production immobilisée","CLASSE 7 : produits",72,7,1,,,TND
+"Immobilisations incorporelles (Production)","Production immobilisée",721,72,0,Income,Income,TND
+"Immobilisations corporelles (Production)","Production immobilisée",722,72,0,Income,Income,TND
+"Production immobilisée liée à une modif. comptable","Production immobilisée",728,72,0,Income,Income,TND
+"Produits divers ordinaires","CLASSE 7 : produits",73,7,1,,,TND
+"Redevances pour concessions, brevets, licences, etc. (Produits)","Produits divers ordinaires",731,73,0,Income,Income,TND
+"Revenus des immeubles non affectés aux activités pro.","Produits divers ordinaires",732,73,0,Income,Income,TND
+"Jetons de présence et rémunérations d'administrateurs, gérants","Produits divers ordinaires",733,73,0,Income,Income,TND
+"Ristournes perçues des coopératives","Produits divers ordinaires",734,73,0,Income,Income,TND
+"Quotes-parts de résultat sur opérations faites en commun (Produits)","Produits divers ordinaires",735,73,0,Income,Income,TND
+"Produits nets sur cessions d'immobilisations","Produits divers ordinaires",736,73,0,Income,Income,TND
+"Produits divers ordinaires liés à une modif. comptable","Produits divers ordinaires",738,73,0,Income,Income,TND
+"Quotes-parts des subventions d'investissement inscrites au résultat","Produits divers ordinaires",739,73,0,Income,Income,TND
+"Subventions d'exploitation et d'équilibre","CLASSE 7 : produits",74,7,1,,,TND
+"Subventions d'exploitation","Subventions d'exploitation et d'équilibre",741,74,0,Income,Income,TND
+"Subventions d'équilibre","Subventions d'exploitation et d'équilibre",745,74,0,Income,Income,TND
+"Subventions liées à une modif. comptable","Subventions d'exploitation et d'équilibre",748,74,0,Income,Income,TND
+"Produits financiers","CLASSE 7 : produits",75,7,1,,,TND
+"Produits des participations","Produits financiers",751,75,0,Income,Income,TND
+"Produits des autres immobilisations financières","Produits financiers",752,75,0,Income,Income,TND
+"Revenus des autres créances","Produits financiers",753,75,0,Income,Income,TND
+"Revenus des valeurs mobilières de placement","Produits financiers",754,75,0,Income,Income,TND
+"Escomptes obtenus","Produits financiers",755,75,0,Income,Income,TND
+"Gains de change","Produits financiers",756,75,0,Income,Income,TND
+"Produits nets sur cessions de valeurs mobilières","Produits financiers",757,75,0,Income,Income,TND
+"Produits financiers liés à une modif. comptable","Produits financiers",758,75,0,Income,Income,TND
+"Gains extraordinaires","CLASSE 7 : produits",77,7,0,Income,Income,TND
+"Reprises sur amortissements et provisions","CLASSE 7 : produits",78,7,1,,,TND
+"Reprises sur amortissements et provisions (produits ordinaires)","Reprises sur amortissements et provisions",781,78,1,,,TND
+"Reprises sur amort. des immob. incorp. et corp.","Reprises sur amortissements et provisions (produits ordinaires)",7811,781,1,,,TND
+"Reprises sur amortissements des immobilisations incorporelles","Reprises sur amort. des immob. incorp. et corp.",78111,7811,0,Income,Income,TND
+"Reprises sur amortissements des immobilisations corporelles","Reprises sur amort. des immob. incorp. et corp.",78112,7811,0,Income,Income,TND
+"Reprises sur provisions pour risques et charges d'exploitation","Reprises sur amortissements et provisions (produits ordinaires)",7815,781,0,Income,Income,TND
+"Reprises sur provisions dépréciation immob. incorp. et corp.","Reprises sur amortissements et provisions (produits ordinaires)",7816,781,1,,,TND
+"Reprises sur provisions dépréciation des immobilisations incorporelles","Reprises sur provisions dépréciation immob. incorp. et corp.",78161,7816,0,Income,Income,TND
+"Reprises sur provisions dépréciation des immobilisations corporelles","Reprises sur provisions dépréciation immob. incorp. et corp.",78162,7816,0,Income,Income,TND
+"Reprises sur provisions pour dépréciation des actifs courants","Reprises sur amortissements et provisions (produits ordinaires)",7817,781,1,,,TND
+"Reprises sur provisions dépréciation stocks et en-cours","Reprises sur provisions pour dépréciation des actifs courants",78173,7817,0,Income,Income,TND
+"Reprises sur provisions dépréciation créances","Reprises sur provisions pour dépréciation des actifs courants",78174,7817,0,Income,Income,TND
+"Reprises sur provisions liées à une modif. comptable","Reprises sur amortissements et provisions (produits ordinaires)",7818,781,0,Income,Income,TND
+"Reprises sur provisions (produites financiers)","Reprises sur amortissements et provisions",786,78,1,,,TND
+"Reprises sur provisions pour risque et charges financières","Reprises sur provisions (produites financiers)",7865,786,0,Income,Income,TND
+"Reprises sur provisions pour dépréciation des éléments financiers","Reprises sur provisions (produites financiers)",7866,786,0,Income,Income,TND
+"Reprises sur provisions liées à une modif. comptable (financier)","Reprises sur provisions (produites financiers)",7868,786,0,Income,Income,TND
+"Transferts de charges","CLASSE 7 : produits",79,7,0,Income,Income,TND

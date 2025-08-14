@@ -241,4 +241,55 @@ app_license = "mit"
 # default_log_clearing_doctypes = {
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
+app_include_js = "/assets/tunisia_compliance/js/onboarding.js"
+# Runs ONCE for existing companies when app is installed
+after_install = "tunisia_compliance.setup.after_install"
 
+# Runs EVERY TIME a new company is created
+on_company_creation = "tunisia_compliance.setup.on_create_company"
+
+# Runs BEFORE uninstalling the app
+before_uninstall = "tunisia_compliance.uninstall.before_uninstall"
+
+fixtures = [
+    # 1. Export ONLY the Address Template for Tunisia
+    {
+        "doctype": "Address Template",
+        "filters": [
+            ["country", "=", "Tunisia"]
+        ]
+    },
+
+    # 2. Export ONLY the Custom Fields needed for your app
+    {
+        "doctype": "Custom Field",
+        "filters": [
+            # This is a list of lists. Each inner list is a DocType you've customized.
+            # Add more DocTypes here if your app customizes others (e.g., Company, Sales Invoice).
+            ["dt", "in", [
+                "Company",
+                "Employee"
+                # Add any other DocTypes you have customized here
+            ]]
+        ]
+    },
+
+    # 3. (Best Practice) Export Property Setters for those same DocTypes
+    {
+        "doctype": "Property Setter",
+        "filters": [
+            ["doc_type", "in", [
+                "Employee"
+                # Make sure this list matches the one in Custom Field
+            ]]
+        ]
+    },
+
+   "Translation",
+
+
+    # 5. Export Naming Series updates made by your app
+    # This is generally safe to export as a whole if you only added prefixes
+    # for Doctypes relevant to your app.
+    # "Naming Series"
+]

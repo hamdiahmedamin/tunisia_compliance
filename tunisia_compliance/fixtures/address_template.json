@@ -1,0 +1,11 @@
+[
+ {
+  "country": "Tunisia",
+  "docstatus": 0,
+  "doctype": "Address Template",
+  "is_default": 1,
+  "modified": "2025-08-10 17:14:50.370067",
+  "name": "Tunisia",
+  "template": "{{ address_line1 }}<br>\n{% if address_line2 %}{{ address_line2 }}<br>{% endif %}\n{{ pincode }} {{ city }}<br>\n{% if state %}{{ state }}<br>{% endif %}\n{{ country }}<br>"
+ }
+]

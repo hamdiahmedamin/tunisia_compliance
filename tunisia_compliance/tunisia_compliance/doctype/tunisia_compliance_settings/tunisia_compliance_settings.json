@@ -1,0 +1,64 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-08-10 04:40:58.297599",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "vat_collected_accounts",
+  "vat_deductible_accounts",
+  "stamp_duty_per_invoice",
+  "custom_onboarding_complete"
+ ],
+ "fields": [
+  {
+   "fieldname": "vat_collected_accounts",
+   "fieldtype": "Table",
+   "label": "VAT Collected Accounts",
+   "options": "VAT Declaration Account"
+  },
+  {
+   "fieldname": "vat_deductible_accounts",
+   "fieldtype": "Table",
+   "label": "VAT Deductible Accounts",
+   "options": "VAT Declaration Account"
+  },
+  {
+   "fieldname": "stamp_duty_per_invoice",
+   "fieldtype": "Link",
+   "label": "Stamp Duty Per Invoice",
+   "options": "Account"
+  },
+  {
+   "default": "0",
+   "fieldname": "custom_onboarding_complete",
+   "fieldtype": "Check",
+   "label": "Onboarding Complete"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2025-08-14 02:50:54.419728",
+ "modified_by": "Administrator",
+ "module": "Tunisia Compliance",
+ "name": "Tunisia Compliance Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
